@@ -1,0 +1,5 @@
+#!/bin/bash -eu
+
+cd $(dirname $0)/..
+
+auto/dev-environment bash -c 'bundle exec jekyll build && bundle exec htmlproofer ./_site --url-ignore=#,#0 --assume-extension'

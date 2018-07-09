@@ -1,0 +1,11 @@
+title: Save The World
+baseurl: ""
+exclude: ['auto']
+analytics_id: TBD
+
+# Build settings
+markdown: kramdown
+
+sass:
+  sass_dir: _sass
+  style: :compressed
