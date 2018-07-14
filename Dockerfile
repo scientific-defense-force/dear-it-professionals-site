@@ -1,4 +1,4 @@
-# matches https://pages.github.com/versions/
+# matches https://pages.github.com/versions
 FROM ruby:2.4.2
 
 # ruby base doesn't specify locale
