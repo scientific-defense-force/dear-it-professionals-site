@@ -1,8 +1,8 @@
-title: Dear It Professionals
+title: Dear IT Professionals
 description: Come and save the world
 baseurl: ""
 exclude: ['auto']
-analytics_id: TBD
+analytics_id: ''
 theme: jekyll-theme-cayman
 
 # Build settings
