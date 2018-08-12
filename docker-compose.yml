@@ -2,7 +2,7 @@ version: '2'
 
 services:
   dev:
-    build: .
+    image: ruby:2.4.2 # matches https://pages.github.com/versions
     working_dir: /work
     command: ./run
     volumes:
