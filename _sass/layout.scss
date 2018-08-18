@@ -1,14 +1,14 @@
-* {
-  box-sizing: border-box;
+.expandable {
+  position: relative;
 }
 
-body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
+.expandable:before {
+  content: "\f077";
+  font-family: FontAwesome;
+  color: #000;
+  padding-right: 10px;
 }
 
-.main-content {
-  width: 990px;
-  margin: 0 auto;
+.expandable[aria-expanded=true]:before {
+  content: "\f078";
 }
