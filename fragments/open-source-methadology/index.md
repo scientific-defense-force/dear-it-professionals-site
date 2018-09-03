@@ -8,4 +8,4 @@ Open source rocking it.
 The power of iteration.
 
 {:.open-source-methodology.collapse}
-The power of crowd sourcing
+The power of crowd sourcing.

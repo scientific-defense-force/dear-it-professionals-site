@@ -6,5 +6,4 @@ Yep, while we happily work for various companies the world is getting worse. Not
 
 {% include_relative fragments/world-bad-shape/environment-bad-shape.md %}
 
-{:.world-bad-shape.collapse}
-We are exploiting the large majority of poor people at an unprecendented level.
+{% include_relative fragments/world-bad-shape/extreme-wealth-inequality.md %}

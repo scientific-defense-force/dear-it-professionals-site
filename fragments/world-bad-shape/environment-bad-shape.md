@@ -5,4 +5,4 @@
 Global warming.
 
 {:.environment-bad-shape.collapse}
-Deforestation
+Species extinction.
