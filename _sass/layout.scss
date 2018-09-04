@@ -3,13 +3,17 @@
 }
 
 .expandable:before {
-  content: "\f077";
+  content: "\f055";
   font-family: FontAwesome;
-  color: #000;
+  color: #847f81;
   padding-right: 10px;
   cursor: pointer;
 }
 
 .expandable[aria-expanded=true]:before {
-  content: "\f078";
+  content: "\f056";
+}
+
+.level-2 {
+  padding-left: 20px;
 }
