@@ -1,17 +1,21 @@
 .expandable {
   position: relative;
-}
 
-.expandable:before {
-  content: "\f055";
-  font-family: FontAwesome;
-  color: #847f81;
-  padding-right: 10px;
-  cursor: pointer;
-}
+  &:before {
+    content: "\f055";
+    font-family: FontAwesome;
+    color: #847f81;
+    padding-right: 5px;
+    cursor: pointer;
+  }
 
-.expandable[aria-expanded=true]:before {
-  content: "\f056";
+  &[aria-expanded=true]:before {
+    content: "\f056";
+  }
+
+  &.collapsed {
+    content: "\f055";
+  }
 }
 
 .level-2 {
